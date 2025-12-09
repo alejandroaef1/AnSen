@@ -7,7 +7,7 @@ import uvicorn
 app = FastAPI()
 
 # Conectar al modelo de Hugging Face
-client = Client("https://aaesfr-clasificador-de-opiniones.hf.space")
+client = Client("https://aaesfr-AnSen.hf.space")
 
 class ReviewRequest(BaseModel):
     id_cliente: int
